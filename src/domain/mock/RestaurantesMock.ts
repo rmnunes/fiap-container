@@ -1,0 +1,86 @@
+import { Restaurantes } from "../Restaurantes";
+
+const RestaurantesMock: Restaurantes[] = [
+  {
+    id: "DDB80112-C8D3-7F8C-CA5A-FFC81497FDB9",
+    img: "197AC591-C11B-4F45-E796-EB230FA58CD3",
+    nome: "Restaurant 1",
+    nota: 1,
+    tipo: "salads",
+    latLong: "-17.98744, 63.25289",
+  },
+  {
+    id: "C79FD92C-EDCF-6CAF-701E-EC1D84C8D92E",
+    img: "D1498C5D-8A3E-F194-85CD-64142E83871B",
+    nome: "Restaurant 2",
+    nota: 5,
+    tipo: "sandwiches",
+    latLong: "21.49629, -103.82382",
+  },
+  {
+    id: "A99B9732-BF87-FABF-9B20-8587D8446369",
+    img: "2A0E4A47-1B5F-90E0-02A5-08F4D8EFFA0F",
+    nome: "Restaurant 3",
+    nota: 5,
+    tipo: "sandwiches",
+    latLong: "59.04302, 87.82719",
+  },
+  {
+    id: "B61AA2A2-DD1E-16EB-F63A-E00BDDE3B687",
+    img: "4292F84C-2FF0-52CB-EEDF-3D231EB77033",
+    nome: "Restaurant 4",
+    nota: 2,
+    tipo: "seafood",
+    latLong: "-45.59621, -173.13502",
+  },
+  {
+    id: "4BFA6B86-3673-9558-9887-E97A9B21765E",
+    img: "864EB167-0EAD-54DC-562D-DAE9AC601E6E",
+    nome: "Restaurant 5",
+    nota: 2,
+    tipo: "soups",
+    latLong: "-87.77352, -33.25591",
+  },
+  {
+    id: "35AD69F8-F87C-7C2F-5F7B-8B496C0968E6",
+    img: "6056047B-858E-5EB1-0CB3-E65D1ED560A9",
+    nome: "Restaurant 6",
+    nota: 4,
+    tipo: "salads",
+    latLong: "3.29687, -138.12471",
+  },
+  {
+    id: "66D290F0-F323-ABB1-7268-132ACF7CA887",
+    img: "DE54F95B-8984-C63E-CD5D-3CA8098D1C92",
+    nome: "Restaurant 7",
+    nota: 2,
+    tipo: "sandwiches",
+    latLong: "81.0173, 95.36312",
+  },
+  {
+    id: "4F88B08C-AA6D-3E84-22C1-1E3A7A2DD91B",
+    img: "1116D6C5-2DB0-4809-1EE2-A652B5C849D2",
+    nome: "Restaurant 8",
+    nota: 2,
+    tipo: "cereals",
+    latLong: "-61.31753, -164.68218",
+  },
+  {
+    id: "93259C70-0F10-C5B7-D198-236241877BDA",
+    img: "E23ADB90-D28E-9F48-35F9-93CA3AFDB0A2",
+    nome: "Restaurant 9",
+    nota: 3,
+    tipo: "stews",
+    latLong: "-60.24066, -153.85208",
+  },
+  {
+    id: "5DC8D90D-C0AD-8AAB-5940-66B14BEBC516",
+    img: "E5447D02-631D-907A-8A0D-67D1DA78B238",
+    nome: "Restaurant 10",
+    nota: 1,
+    tipo: "salads",
+    latLong: "68.64541, -95.83403",
+  },
+];
+
+export default RestaurantesMock;
